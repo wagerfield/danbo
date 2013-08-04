@@ -51,7 +51,11 @@ to the motion of the gyroscope causing him to tumble around inside a box. The
 ragdoll physics are created using [ammo.js][ammo] and the artwork is that of my
 own.
 
-Check out Danbo **[here][demo]**!
+---
+
+#### CHECK OUT DANBO **[HERE][demo]**!
+
+---
 
 For the best experience, view the project on a modern smart device like an
 iPhone or iPad. The project has also been built to function as a web
