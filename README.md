@@ -61,7 +61,9 @@ For the best experience, view the project on a modern smart device like an
 iPhone or iPad. The project has also been built to function as a web
 application, so go ahead and add it to your homescreen!
 
-For more madness, follow me on [Twitter][twitter]
+#### For more madness, follow me on [Twitter][twitter]
+
+![Danbo][shoes]
 
 ## Author
 
@@ -76,6 +78,7 @@ Licensed under [MIT][mit]. Enjoy.
 [mit]: http://www.opensource.org/licenses/mit-license.php
 [help]: http://farm3.staticflickr.com/2795/4522244501_42029bd8be_b.jpg
 [yotsuba]: http://farm9.staticflickr.com/8017/7159970615_94287b6770_z.jpg
+[shoes]: http://d75822.medialib.glogster.com/adeesyagausper/media/2f/2f5fd06f67f2234eebde2d27337f0318a020f8ae/shoes.jpg
 [usn]: http://ultrasupernew.com/
 [ted]: http://www.imdb.com/title/tt1637725/
 [amazon]: http://www.amazon.com/Revoltech-Danboard-Yotsuba-Amazon-co-jp-Version/dp/B001R23RS2/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1375591136&sr=1-1&keywords=danbo
