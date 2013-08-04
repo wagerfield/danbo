@@ -16,30 +16,29 @@ world I live in.
 
 More recently, I was fortunate enough to be presented with the opportunity to
 spend a couple of months in Tokyo working as a Technical Consultant for
-[Ultra Super New][usn]. This was my first time in Asia so I was both excited and
-a little anxious about being a total alien in such a far-away-land.
+[Ultra Super New][usn].
 
 On arrival I was overwhelmed by the barrage of information that I simply could
 not understand. In between the resteraunts, bars, boutiques and monolithic
 skyscrapers – dolls, robots and manga paint the walls, billboards, vehicles and
 packaging. This childlike mentality is an integral part of Tokyo's facade and
-it charms the pants off me. The saturated innocence instills a great sense of
-peace and respect for one another and as a result, Japan is an incredibly safe
-place to live.
+it has charmed the pants off me. The saturated innocence instills a great sense
+of peace and respect for one another and as a result, Japan is an incredibly
+safe place to live.
 
-**The world could learn a lot from Japan.**
+In this regard, **the world could learn a lot from Japan.**
 
 Beyond the beautiful artwork lies deep, fantastical and often complex stories
 which question life, relationships and a full spectrum of ideas. The leverage of
 this medium is quite simply wonderful.
 
-One of the lovliest stories I have heard so far is that of Danbo. Danbo (short
-for Danboru, the Japanese word for corrugated cardboard) is a cardboard robot
-built by a young girl longing for a companion – brought to life by her belief
-in his existance alone. Though the premise of the story is a reasonably common
-one—recently depicted in the film [Ted][ted]—I personally love the idea that
-Danbo was the sole creation of one girl – naive to the seemingly rigid
-constraints of the universe.
+One of the most heart-warming stories I have heard so far is that of Danbo.
+Danbo (short for Danboru, the Japanese word for corrugated cardboard) is a
+cardboard robot built by a young girl longing for a companion – brought to life
+by her belief in his existance alone. Though the premise of the story is a
+reasonably common one—recently depicted in the film [Ted][ted]—I personally love
+the idea that Danbo was the sole creation of one girl; naive to the seemingly
+rigid constraints of the universe.
 
 ![Danbo][yotsuba]
 
@@ -49,7 +48,7 @@ contain herself, she proceeded to tell the story, and so, as a visual ode to my
 time in Tokyo, I decided to create Danbo for the web.
 
 Created using CSS3D, Danbo is intended to exist in your smart device – reacting
-to the motion of the gyroscope causing him to tumble around inside a box. The
+to the motion of the gyroscope causing him to tumble around inside his box. The
 ragdoll physics are created using [ammo.js][ammo] and the artwork is that of my
 own.
 
@@ -60,8 +59,8 @@ own.
 ---
 
 For the best experience, view the project on a modern smart device equipped with
-a gyroscope like an iPhone or iPad. The project has also been built to function
-as a web application, so go ahead and add it to your homescreen!
+a gyroscope - such as an iPhone or iPad. The project has also been built to
+function as a web application, so go ahead and add it to your homescreen!
 
 #### For more loony thoughts & updates, [follow me on Twitter][twitter]
 
