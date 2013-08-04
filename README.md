@@ -1,6 +1,6 @@
 # DANBO
 
-[![Danbo][help]]
+![Danbo][help]
 
 Check out Danbo brought to life in your browser **[here][demo]**! For the best
 experience, view the project on a modern smart device like an iPhone or iPad.
@@ -38,7 +38,7 @@ in his existance alone. Though the story is a reasonably common one, recently
 depicted in the film [Ted][ted], I personally love the idea that Danbo was the
 sole creation of one girl – naive to the rigid constraints of the world.
 
-[![Danbo][belong]]
+![Danbo][belong]
 
 I learnt of Danbo when one of my collegues errupted with glee when she finally
 recieved a parcel containing an [80mm figurine][amazon] of Danbo. Unable to
