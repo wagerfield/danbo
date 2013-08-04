@@ -54,7 +54,7 @@ own.
 
 ---
 
-#### [CHECK OUT DANBO HERE !][demo]
+#### [CHECK OUT DANBO HERE!][demo]
 
 ---
 

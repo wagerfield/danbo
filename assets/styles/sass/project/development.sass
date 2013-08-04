@@ -1,0 +1,105 @@
+//============================================================
+//
+// Danbo: Development Styles
+//
+// @description Development styling
+// @version 1.00
+//
+// @author Matthew Wagerfield @mwagerfield
+//
+// ---------- INDEX ----------
+//
+// Mobile
+// Phablet
+// Tablet
+// Desktop
+// Cinema
+//
+//============================================================
+
+.debugger
+  $HEIGHT: 40px
+  +box-sizing("border-box")
+  background-color: rgba($WHITE, 0.95)
+  text-overflow: ellipsis
+  padding-left: $HEIGHT * 1.4
+  white-space: nowrap
+  line-height: $HEIGHT
+  overflow: hidden
+  position: fixed
+  cursor: pointer
+  height: $HEIGHT
+  color: #666
+  width: 100%
+  z-index: 10
+  margin: 0
+  left: 0
+  top: 0
+  &:before
+    background-color: #666
+    font-weight: $BOLD
+    text-align: center
+    position: absolute
+    height: $HEIGHT
+    width: $HEIGHT
+    display: block
+    color: #000
+    content: "M"
+    left: 0
+    top: 0
+
+html
+
+  &.mouse .debugger
+    border-right: 5px solid #F00
+
+  &.touch .debugger
+    border-right: 5px solid #0F0
+
+
+
+//----------------------------------------
+// Phablet
+//----------------------------------------
+
+@media #{$PHABLET_QUERY}
+
+  .debugger
+    &:before
+      content: "P"
+
+
+
+//----------------------------------------
+// Tablet
+//----------------------------------------
+
+@media #{$TABLET_QUERY}
+
+  .debugger
+    &:before
+      content: "T"
+
+
+
+//----------------------------------------
+// Desktop
+//----------------------------------------
+
+@media #{$DESKTOP_QUERY}
+
+  .debugger
+    &:before
+      content: "D"
+
+
+
+//----------------------------------------
+// Cinema
+//----------------------------------------
+
+@media #{$CINEMA_QUERY}
+
+  .debugger
+    &:before
+      content: "C"

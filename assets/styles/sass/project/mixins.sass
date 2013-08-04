@@ -1,0 +1,210 @@
+//============================================================
+//
+// Danbo: Mixins
+//
+// @description Defines project related variables and mixins
+//
+// @version 1.00
+//
+// @author Matthew Wagerfield @mwagerfield
+//
+// ---------- INDEX ----------
+//
+// @function strip
+// @function px-from-percent
+// @function modular-scale
+//
+// @mixin font-face
+// @mixin clearfix
+// @mixin guides
+// @mixin margins
+// @mixin icon
+// @mixin antialias
+// @mixin font-feature-settings
+// @mixin dash
+// @mixin selection
+//
+//============================================================
+
+@function strip($value)
+  @return $value / ($value * 0 + 1)
+
+
+
+//============================================================
+//
+// font-face
+//
+// @param folder        : string
+// @param family        : string
+// @param weight        : normal | bold | 100 | 200 | 300...
+// @param style         : normal | italic
+//
+//============================================================
+
+=font-face($folder, $file, $family, $weight: normal, $style: normal)
+  $EOT_PATH: "#{$FONTS_PATH}#{$folder}/#{$file}.eot"
+  $EOT_FORMAT: "embedded-opentype"
+  $WOFF_PATH: "#{$FONTS_PATH}#{$folder}/#{$file}.woff"
+  $WOFF_FORMAT: "woff"
+  $TTF_PATH: "#{$FONTS_PATH}#{$folder}/#{$file}.ttf"
+  $TTF_FORMAT: "truetype"
+  $SVG_PATH: "#{$FONTS_PATH}#{$folder}/#{$file}.svg"
+  $SVG_FORMAT: "svg"
+  font-family: $family
+  src: url($EOT_PATH)
+  src: url("#{$EOT_PATH}?#iefix") format($EOT_FORMAT), url($WOFF_PATH) format($WOFF_FORMAT), url($TTF_PATH) format($TTF_FORMAT), url("#{$SVG_PATH}##{$file}") format($SVG_FORMAT)
+  font-weight: $weight
+  font-style: $style
+
+
+
+//============================================================
+//
+// clearfix
+//
+//============================================================
+
+=clearfix()
+  zoom: 1
+  &:after,
+  &:before
+    display: table
+    content: ""
+  &:after
+    clear: both
+
+
+
+//============================================================
+//
+// icon
+//
+// @param folder        : string
+// @param family        : string
+// @param weight        : normal | bold | 100 | 200 | 300...
+// @param style         : normal | italic
+//
+//============================================================
+
+=icon($character, $size: 1.0em)
+  content: $character
+  font-family: $ICONS_FONT_FAMILY
+  text-transform: none
+  font-weight: normal
+  font-style: normal
+  line-height: 1.0em
+  font-size: $size
+
+
+
+//============================================================
+//
+// antialias
+//
+// @param value         : none | auto | antialiased | subpixel-antialiased
+//
+//============================================================
+
+=font-smoothing($value: auto)
+  -webkit-font-smoothing: $value
+
+
+
+//============================================================
+//
+// font-feature-settings
+//
+// @param value         : "liga", "dlig", "onum", "pnum", etc.
+//
+// @see http://www.microsoft.com/typography/otspec/featurelist.htm
+//
+//============================================================
+
+=font-feature-settings($value)
+  -webkit-font-feature-settings: $value
+
+
+
+//============================================================
+//
+// block
+//
+// @param width         : px
+// @param height        : px
+// @param color         : hex
+//
+//============================================================
+
+=block($width: $DASH_WIDTH, $height: $DASH_HEIGHT, $color: $STONE)
+  background-color: $color
+  display: block
+  height: $height
+  width: $width
+
+
+
+//============================================================
+//
+// tap-highlight-color
+//
+// @param value         : hex, rgba, hsla
+//
+//============================================================
+
+=tap-highlight-color($value)
+  -webkit-tap-highlight-color: $value
+
+
+
+//============================================================
+//
+// tap-highlight-color
+//
+// @param value         : hex, rgba, hsla
+//
+//============================================================
+
+=inertial-scrolling()
+  -webkit-overflow-scrolling: touch
+
+
+
+//============================================================
+//
+// selection
+//
+// @param fill          : hex
+// @param text          : hex
+//
+//============================================================
+
+=selection($fill, $text)
+  ::selection
+    text-shadow: none
+    background: $fill
+    color: $text
+  ::-moz-selection
+    text-shadow: none
+    background: $fill
+    color: $text
+
+
+
+//============================================================
+//
+// keyframes
+//
+// @param name          : string
+//
+//============================================================
+
+=keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content
