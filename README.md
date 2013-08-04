@@ -36,9 +36,10 @@ for Danboru, the Japanese word for corrugated cardboard) is a cardboard robot
 built by a young girl looking for a companion, and brought to life by her belief
 in his existance alone. Though the story is a reasonably common one, recently
 depicted in the film [Ted][ted], I personally love the idea that Danbo was the
-sole creation of one girl – naive to the rigid constraints of the world.
+sole creation of one girl – naive to the seemingly rigid constraints of the
+universe.
 
-![Danbo][belong]
+![Danbo][yotsuba]
 
 I learnt of Danbo when one of my collegues errupted with glee when she finally
 recieved a parcel containing an [80mm figurine][amazon] of Danbo. Unable to
@@ -70,7 +71,7 @@ Licensed under [MIT][mit]. Enjoy.
 [twitter]: http://twitter.com/mwagerfield
 [mit]: http://www.opensource.org/licenses/mit-license.php
 [help]: http://farm3.staticflickr.com/2795/4522244501_42029bd8be_b.jpg
-[belong]: http://farm5.staticflickr.com/4041/4205936558_25311c5472_b.jpg
+[yotsuba]: http://farm9.staticflickr.com/8017/7159970615_94287b6770_z.jpg
 [usn]: http://ultrasupernew.com/
 [ted]: http://www.imdb.com/title/tt1637725/
 [amazon]: http://www.amazon.com/Revoltech-Danboard-Yotsuba-Amazon-co-jp-Version/dp/B001R23RS2/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1375591136&sr=1-1&keywords=danbo
