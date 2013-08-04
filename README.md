@@ -19,7 +19,7 @@ spend a couple of months in Tokyo working as a Technical Consultant for
 [Ultra Super New][usn].
 
 On arrival I was overwhelmed by the barrage of information that I simply could
-not understand. In between the resteraunts, bars, boutiques and monolithic
+not understand. In between the restaurants, bars, boutiques and monolithic
 skyscrapers – dolls, robots and manga paint the walls, billboards, vehicles and
 packaging. This childlike mentality is an integral part of Tokyo's facade and
 it is both charming and infectious. The saturated innocence instills a great
@@ -34,10 +34,10 @@ this medium is quite simply wonderful.
 
 One of the most heart-warming stories I have heard so far is that of Danbo.
 Danbo (short for Danboru, the Japanese word for corrugated cardboard) is a
-cardboard robot built by a young girl longing for a companion – brought to life
-by her belief in his existance alone. Though the premise of the story is a
-reasonably common one—recently depicted in the film [Ted][ted]—I personally love
-the idea that Danbo is the sole creation of one girl; naive to the seemingly
+cardboard robot built by a young girl longing for a companion and brought to
+life by her belief in his existance alone. Though the premise of the story is a
+reasonably common one; recently depicted in the film [Ted][ted], I personally
+love the idea that Danbo is the sole creation of one girl; naive to the seemingly
 rigid constraints of the universe.
 
 ![Danbo][yotsuba]
@@ -47,7 +47,7 @@ recieved a parcel containing an [80mm figurine][amazon] of Danbo. Unable to
 contain herself, she proceeded to tell the story, and so, as a visual ode to my
 time in Tokyo, I decided to create Danbo for the web.
 
-Created using CSS3D, Danbo is intended to exist in your smart device—reacting
+Modelled using CSS3D, Danbo is intended to exist in your smart device—reacting
 to the motion of the gyroscope—causing him to tumble around inside his box. The
 ragdoll physics are created using [ammo.js][ammo] and the artwork is that of my
 own.
