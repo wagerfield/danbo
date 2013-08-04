@@ -22,9 +22,9 @@ On arrival I was overwhelmed by the barrage of information that I simply could
 not understand. In between the resteraunts, bars, boutiques and monolithic
 skyscrapers – dolls, robots and manga paint the walls, billboards, vehicles and
 packaging. This childlike mentality is an integral part of Tokyo's facade and
-it has charmed the pants off me. The saturated innocence instills a great sense
-of peace and respect for one another and as a result, Japan is an incredibly
-safe place to live.
+it is both charming and infectious. The saturated innocence instills a great
+sense of peace and respect for one another and as a result, Japan is an
+incredibly safe place to live.
 
 In this regard, **the world could learn a lot from Japan.**
 
@@ -37,7 +37,7 @@ Danbo (short for Danboru, the Japanese word for corrugated cardboard) is a
 cardboard robot built by a young girl longing for a companion – brought to life
 by her belief in his existance alone. Though the premise of the story is a
 reasonably common one—recently depicted in the film [Ted][ted]—I personally love
-the idea that Danbo was the sole creation of one girl; naive to the seemingly
+the idea that Danbo is the sole creation of one girl; naive to the seemingly
 rigid constraints of the universe.
 
 ![Danbo][yotsuba]
@@ -47,8 +47,8 @@ recieved a parcel containing an [80mm figurine][amazon] of Danbo. Unable to
 contain herself, she proceeded to tell the story, and so, as a visual ode to my
 time in Tokyo, I decided to create Danbo for the web.
 
-Created using CSS3D, Danbo is intended to exist in your smart device – reacting
-to the motion of the gyroscope causing him to tumble around inside his box. The
+Created using CSS3D, Danbo is intended to exist in your smart device—reacting
+to the motion of the gyroscope—causing him to tumble around inside his box. The
 ragdoll physics are created using [ammo.js][ammo] and the artwork is that of my
 own.
 
