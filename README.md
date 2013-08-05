@@ -7,8 +7,6 @@
 For the best experience, view the project on a modern smart device like an
 iPhone or iPad.
 
----
-
 ## Backstory
 
 One of the best aspects of my vocation is that I get to travel and work all over
