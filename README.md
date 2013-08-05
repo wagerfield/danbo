@@ -2,10 +2,12 @@
 
 ![Danbo][help]
 
-**Check out Danbo *brought to life* in your browser [here][demo]!**
+#### Check out Danbo *brought to life* in your browser [here!][demo]
 
 For the best experience, view the project on a modern smart device like an
 iPhone or iPad.
+
+---
 
 ## Backstory
 
